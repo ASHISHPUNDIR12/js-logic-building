@@ -15,6 +15,9 @@
 
 // q3 - Write a function that checks whether a string is a palindrome.
 
-const palidromeCheck = (value )=>{
-    
+const palidromeCheck = (str )=>{
+   const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, '') ; 
+   return cleanStr === cleanStr.split('').reverse().join(''); 
+
 }
+console.log(palidromeCheck("racecar"))
