@@ -23,3 +23,33 @@
 // console.log(palidromeCheck("racecar"))
 
 
+// q4 -- Write a function to generate the first N numbers of the Fibonacci sequence.
+
+
+// function generateFibonacci(n) {
+
+//     const fibSequence = [0, 1];
+
+//     for (let i = 2; i < n; i++) {
+//       fibSequence.push(fibSequence[i - 1] + fibSequence[i - 2]);
+//     }
+  
+//     return fibSequence.slice(0, n);
+//   }
+
+
+// console.log(  generateFibonacci(9))
+
+
+// Write a function to reverse a given string.
+
+const reverseString = (str)=>{
+  const StringArr = str.split('')
+  const reversearr = StringArr.reverse(); 
+  const reverseString = reversearr.join('')
+  return reverseString
+
+
+}
+
+console.log(reverseString("ashish"))
