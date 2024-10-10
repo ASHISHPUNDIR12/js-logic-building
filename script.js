@@ -71,16 +71,32 @@
 
 // Write a function that finds the maximum element in an array.
 
-const maxminumElement = (arr)=>{
- let maxelem = arr[0]
- for( let i = 0 ; i<arr.length ; i++){
-  if(arr[i]>maxelem){
-    maxelem = arr[i]
+// const maxminumElement = (arr)=>{
+//  let maxelem = arr[0]
+//  for( let i = 0 ; i<arr.length ; i++){
+//   if(arr[i]>maxelem){
+//     maxelem = arr[i]
 
+//   }
+//  }
+//  return maxelem ; 
+
+// }
+// const arr = [1, 2 ,3 ,4 ,8 , 5]
+// console.log(maxminumElement(arr))
+
+
+// Write a function that calculates the average of numbers in an array.
+
+const avgOfArr = (arr)=>{
+  let sum = 0 ; 
+  for(let i = 0 ; i<arr.length ; i++){
+    sum+=arr[i];
   }
- }
- return maxelem ; 
+
+  const  avg = sum/arr.length ;
+  return avg.toFixed(2) 
 
 }
 const arr = [1, 2 ,3 ,4 ,8 , 5]
-console.log(maxminumElement(arr))
+console.log(avgOfArr(arr)) ;
