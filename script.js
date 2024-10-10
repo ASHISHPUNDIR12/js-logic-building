@@ -69,3 +69,18 @@
 // const arr = [1, 2 ,3 ,4 , 5]
 // console.log(sumOfArrelement(arr))
 
+// Write a function that finds the maximum element in an array.
+
+const maxminumElement = (arr)=>{
+ let maxelem = arr[0]
+ for( let i = 0 ; i<arr.length ; i++){
+  if(arr[i]>maxelem){
+    maxelem = arr[i]
+
+  }
+ }
+ return maxelem ; 
+
+}
+const arr = [1, 2 ,3 ,4 ,8 , 5]
+console.log(maxminumElement(arr))
