@@ -43,13 +43,29 @@
 
 // Write a function to reverse a given string.
 
-const reverseString = (str)=>{
-  const StringArr = str.split('')
-  const reversearr = StringArr.reverse(); 
-  const reverseString = reversearr.join('')
-  return reverseString
+// const reverseString = (str)=>{
+//   const StringArr = str.split('')
+//   const reversearr = StringArr.reverse(); 
+//   const reverseString = reversearr.join('')
+//   return reverseString
 
 
-}
+// }
 
-console.log(reverseString("ashish"))
+// console.log(reverseString("ashish"))
+
+
+
+
+// q7 - // Write a function that takes an array of numbers and returns the sum of all elements.
+// const sumOfArrelement = (arr)=>{
+//   let sum = 0 ;
+//   for( let i = 0 ; i<arr.length ; i++ ){
+//     sum = sum + arr[i]
+//   }
+//   return sum ; 
+
+// }
+// const arr = [1, 2 ,3 ,4 , 5]
+// console.log(sumOfArrelement(arr))
+
